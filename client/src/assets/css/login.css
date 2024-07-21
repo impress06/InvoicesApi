@@ -1,0 +1,69 @@
+.auth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #b9e7e7;
+}
+h1 {
+  color: teal;
+  margin-bottom: 20px;
+}
+
+.formLogin {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 340px;
+  margin: 0 auto;
+  padding: 30px 20px 30px 45px;
+  min-height: 220px;
+}
+.forminput {
+  border: none;
+  width: 230px;
+  padding: 10px;
+  border-bottom: 1px gray solid;
+}
+.forminput:focus {
+  outline: none;
+}
+.formbutton {
+  padding: 10px;
+  background-color: teal;
+  color: white;
+  border: none;
+  margin-top: 10px;
+}
+.formLogin .account {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}
+.formLogin .forget {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+.remember {
+  display: flex;
+  align-items: first baseline;
+  font-size: 13px;
+  gap: 5px;
+  margin-top: 12px;
+}
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.password-input-wrapper {
+  position: relative;
+}
+.fas {
+  position: absolute;
+  right: 20px;
+  top: 6px;
+}
